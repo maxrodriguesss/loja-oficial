@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaaxStore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Brasileirão
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item " href="#">AMÉRICA MINEIRO</a></li>
+                        <li><a class="dropdown-item" href="#">ATLÉTICO GOIANIENSE</a></li>
+                        <li><a class="dropdown-item" href="#">AVAÍ</a></li>
+                        <li><a class="dropdown-item" href="#">BAHIA</a></li>
+                        <li><a class="dropdown-item" href="#">BOTAFOGO</a></li>
+                        <li><a class="dropdown-item" href="#">CEARÁ</a></li>
+                        <li><a class="dropdown-item" href="#">CHAPECOENSE</a></li>
+                        <li><a class="dropdown-item" href="#">CORINTHIANS</a></li>
+                        <li><a class="dropdown-item" href="#">CRUZEIRO</a></li>
+                        <li><a class="dropdown-item" href="#">FLAMENGO</a></li>
+                        <li><a class="dropdown-item" href="#">FLUMINENSE</a></li>
+                        <li><a class="dropdown-item" href="#">FORTALEZA</a></li>
+                        <li><a class="dropdown-item" href="#">GRÊMIO</a></li>
+                        <li><a class="dropdown-item" href="#">INTERNACIONAL</a></li>
+                        <li><a class="dropdown-item" href="#">PALMEIRAS</a></li>
+                        <li><a class="dropdown-item" href="#">RED BULL BRAGANTINO</a></li>
+                        <li><a class="dropdown-item" href="#">SANTOS</a></li>
+                        <li><a class="dropdown-item" href="#">SPORT</a></li>
+                        <li><a class="dropdown-item" href="#">SÃO PAULO</a></li>
+                        <li><a class="dropdown-item" href="#">SPORT</a></li>
+                        <li><a class="dropdown-item" href="#">VASCO</a></li>
+                    </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-auto-close="outside"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Times Internacionais
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">LIGA ALEMÃ</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">BAYERN DE MUNIQUE</a></li>
+                                    <li><a href="#" class="dropdown-item">BORUSSIA DOURTMAN</a></li>
+                                    <li><a href="#" class="dropdown-item">EINTRACHT FRANKFURT</a></li>
+                                    <li><a href="#" class="dropdown-item">RB LEIPZIG</a></li>
+                                    <li><a href="#" class="dropdown-item">WOLFSBURG</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">LIGA AMERICANA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">INTER DE MIAMI</a></li>
+                                    <li><a href="#" class="dropdown-item">LOS ANGELES GALAXY</a></li>
+                                    <li><a href="#" class="dropdown-item">NEW YORK REDBULL</a></li>
+                                    <li><a href="#" class="dropdown-item">ORLANDO CITY</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">LIGA
+                                    ARGENTINA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">BOCA JUNIORS</a></li>
+                                    <li><a href="#" class="dropdown-item">NEWELL'S OLD BOYS</a></li>
+                                    <li><a href="#" class="dropdown-item">RACING</a></li>
+                                    <li><a href="#" class="dropdown-item">RIVER PLATE</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">LIGA
+                                    ESPANHOLA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">ATHLETIC DE BILBAO</a></li>
+                                    <li><a href="#" class="dropdown-item">ATLETICO DE MADRID</a></li>
+                                    <li><a href="#" class="dropdown-item">BARCELONA</a></li>
+                                    <li><a href="#" class="dropdown-item">CELTA DE VIGO</a></li>
+                                    <li><a href="#" class="dropdown-item">GIRONA</a></li>
+                                    <li><a href="#" class="dropdown-item">GRANADA</a></li>
+                                    <li><a href="#" class="dropdown-item">REAL BÉTIS</a></li>
+                                    <li><a href="#" class="dropdown-item">REAL MADRID</a></li>
+                                    <li><a href="#" class="dropdown-item">SEVILLA</a></li>
+                                    <li><a href="#" class="dropdown-item">VILLARREAL</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">LIGA
+                                    FRANCESA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">LOSC LILLE</a></li>
+                                    <li><a href="#" class="dropdown-item">LYON</a></li>
+                                    <li><a href="#" class="dropdown-item">OLYMPIQUE DE MARSEILLE</a></li>
+                                    <li><a href="#" class="dropdown-item">PSG</a></li>
+                                    <li><a href="#" class="dropdown-item">RENNAIS</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">LIGA
+                                    HOLANDESA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">AJAX</a></li>
+                                    <li><a href="#" class="dropdown-item">PSV</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">LIGA
+                                    INGLESA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">ARSENAL</a></li>
+                                    <li><a href="#" class="dropdown-item">ASTON VILLA</a></li>
+                                    <li><a href="#" class="dropdown-item">CHELSEA</a></li>
+                                    <li><a href="#" class="dropdown-item">EVERTON</a></li>
+                                    <li><a href="#" class="dropdown-item">LEEDS</a></li>
+                                    <li><a href="#" class="dropdown-item">LEICESTER</a></li>
+                                    <li><a href="#" class="dropdown-item">LIVERPOOL</a></li>
+                                    <li><a href="#" class="dropdown-item">MANCHESTER CITY</a></li>
+                                    <li><a href="#" class="dropdown-item">MANCHESTER UNITED</a></li>
+                                    <li><a href="#" class="dropdown-item">NEW CASTLE</a></li>
+                                    <li><a href="#" class="dropdown-item">TOTTEHAM</a></li>
+                                    <li><a href="#" class="dropdown-item">WEST HAM</a></li>
+                                    <li><a href="#" class="dropdown-item">WOLVERHAPTON</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">LIGA
+                                    ITALIANA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">FIORENTINA</a></li>
+                                    <li><a href="#" class="dropdown-item">INTER DE MILÃO</a></li>
+                                    <li><a href="#" class="dropdown-item">JUVENTUS</a></li>
+                                    <li><a href="#" class="dropdown-item">MILAN</a></li>
+                                    <li><a href="#" class="dropdown-item">NAPOLI</a></li>
+                                    <li><a href="#" class="dropdown-item">ROMA</a></li>
+                                    <li><a href="#" class="dropdown-item">TORINO</a></li>
+                                    <li><a href="#" class="dropdown-item">VENEZIA</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">LIGA
+                                    MEXICANA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">AMERICA DO MÉXICO</a></li>
+                                    <li><a href="#" class="dropdown-item">CHIVAS</a></li>
+                                    <li><a href="#" class="dropdown-item">PUMAS</a></li>
+                                    <li><a href="#" class="dropdown-item">TIGRES</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">LIGA
+                                    PORTUGUESA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">BENFICA</a></li>
+                                    <li><a href="#" class="dropdown-item">PORTO</a></li>
+                                    <li><a href="#" class="dropdown-item">SPORTING</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">OUTRAS LIGAS</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">AIK</a></li>
+                                    <li><a href="#" class="dropdown-item">BOHEMIAN</a></li>
+                                    <li><a href="#" class="dropdown-item">CELTIC</a></li>
+                                    <li><a href="#" class="dropdown-item">COLO COLO</a></li>
+                                    <li><a href="#" class="dropdown-item">DYNAMO KYIV</a></li>
+                                    <li><a href="#" class="dropdown-item">GALATASARAY</a></li>
+                                    <li><a href="#" class="dropdown-item">UNIVERSIDADE DO CHILE</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-auto-close="outside"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Seleções
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">ÁFRICA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">EGITO</a></li>
+                                    <li><a href="#" class="dropdown-item">GANA</a></li>
+                                    <li><a href="#" class="dropdown-item">NIGÉRIA</a></li>
+                                    <li><a href="#" class="dropdown-item">SENEGAL</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">AMÉRICA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">ARGENTINA</a></li>
+                                    <li><a href="#" class="dropdown-item">BRASIL</a></li>
+                                    <li><a href="#" class="dropdown-item">CANADÁ</a></li>
+                                    <li><a href="#" class="dropdown-item">CHILE</a></li>
+                                    <li><a href="#" class="dropdown-item">COLÔMBIA</a></li>
+                                    <li><a href="#" class="dropdown-item">EQUADOR</a></li>
+                                    <li><a href="#" class="dropdown-item">URUGUAI</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">ÁSIA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">COREIA DO SUL</a></li>
+                                    <li><a href="#" class="dropdown-item">JAPÃO</a></li>
+                                    <li><a href="#" class="dropdown-item">TURQUIA</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend"><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    href="#">EUROPA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item"></a>ALEMANHA</li>
+                                    <li><a href="#" class="dropdown-item"></a>ÁUSTRIA</li>
+                                    <li><a href="#" class="dropdown-item"></a>BÉLGICA</li>
+                                    <li><a href="#" class="dropdown-item"></a>CROÁCIA</li>
+                                    <li><a href="#" class="dropdown-item"></a>DINAMARCA</li>
+                                    <li><a href="#" class="dropdown-item"></a>ESPANHA</li>
+                                    <li><a href="#" class="dropdown-item"></a>FRANÇA</li>
+                                    <li><a href="#" class="dropdown-item"></a>HOLANDA</li>
+                                    <li><a href="#" class="dropdown-item"></a>INGLATERRA</li>
+                                    <li><a href="#" class="dropdown-item"></a>ITÁLIA</li>
+                                    <li><a href="#" class="dropdown-item"></a>PAÍS DE GALES</li>
+                                    <li><a href="#" class="dropdown-item"></a>POLÔNIA</li>
+                                    <li><a href="#" class="dropdown-item"></a>PORTUGAL</li>
+                                    <li><a href="#" class="dropdown-item"></a>REPÚBLICA TCHECA</li>
+                                    <li><a href="#" class="dropdown-item"></a>SÉRVIA</li>
+                                    <li><a href="#" class="dropdown-item"></a>SUÉCIA</li>
+                                    <li><a href="#" class="dropdown-item"></a>SUIÇA</li>
+                                    <li><a href="#" class="dropdown-item"></a>UCRÂNIA</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Basquete
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">ATLANTA HAWKS</a></li>
+                            <li><a class="dropdown-item" href="#">BOSTON CELTICS</a></li>
+                            <li><a class="dropdown-item" href="#">BROOKLYN NETS</a></li>
+                            <li><a class="dropdown-item" href="#">CHICAGO BULLS</a></li>
+                            <li><a class="dropdown-item" href="#">DALLAS MAVERICKS</a></li>
+                            <li><a class="dropdown-item" href="#">GOLDEN SATATE WARRIORS</a></li>
+                            <li><a class="dropdown-item" href="#">LAKERS</a></li>
+                            <li><a class="dropdown-item" href="#">MINNESOTA TIMBERWOLVES</a></li>
+                            <li><a class="dropdown-item" href="#">MIAMI HEAT</a></li>
+                            <li><a class="dropdown-item" href="#">NEW YORK KNICKS</a></li>
+                            <li><a class="dropdown-item" href="#">NEW ORLEANS PELICANS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Kits
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">FRIO</a></li>
+                            <li><a class="dropdown-item" href="#">GOLEIRO</a></li>
+                            <li><a class="dropdown-item" href="#">REGATA</a></li>
+                            <li><a class="dropdown-item" href="#">TREINO</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Outros
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">CORTA VENTO</a></li>
+                            <li><a class="dropdown-item" href="#">FEMININA</a></li>
+                            <li><a class="dropdown-item" href="#">JAQUETA</a></li>
+                            <li><a class="dropdown-item" href="#">KIDS</a></li>
+                            <li><a class="dropdown-item" href="#">MEIAS</a></li>
+                            <li><a class="dropdown-item" href="#">PLAYER</a></li>
+                            <li><a class="dropdown-item" href="#">RETRÔ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
+                        dy=".3em">First slide</text>
+                </svg>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
+                        dy=".3em">Second slide</text>
+                </svg>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
+                        dy=".3em">Third slide</text>
+                </svg>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <h2 class="text-center">Novidades !!</h2>
+    <div class="container row mx-auto g-4">
+        <div class="col-3 col-md-3 col-xxl-2">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em">Image cap</text>
+            </svg>
+            <div class="card-body">
+                <h5 class="card-title">Corinthians Titular 24-25 com Todos os Patrocínios</h5>
+                <br>
+                <p>R$ 120,00</p>
+                <a href="#" class="btn btn-primary">Ver Produto</a>
+            </div>
+        </div>
+        <div class="col-3 col-md-3 col-xxl-2">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em">Image
+                    cap</text>
+            </svg>
+            <div class="card-body">
+                <h5 class="card-title">Corinthians Titular 24-25 com Todos os Patrocínios</h5>
+                <br>
+                <p>R$ 120,00</p>
+                <a href="#" class="btn btn-primary">Ver Produto</a>
+            </div>
+        </div>
+        <div class="col-3 col-md-3 col-xxl-2">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em">Image
+                    cap</text>
+            </svg>
+            <div class="card-body">
+                <h5 class="card-title">Corinthians Titular 24-25 com Todos os Patrocínios</h5>
+                <br>
+                <p>R$ 120,00</p>
+                <a href="#" class="btn btn-primary">Ver Produto</a>
+            </div>
+        </div>
+        <div class="col-3 col-md-3 col-xxl-2">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em">Image
+                    cap</text>
+            </svg>
+            <div class="card-body">
+                <h5 class="card-title">Corinthians Titular 24-25 com Todos os Patrocínios</h5>
+                <br>
+                <p>R$ 120,00</p>
+                <a href="#" class="btn btn-primary">Ver Produto</a>
+            </div>
+        </div>
+        <div class="col-3 col-md-3 col-xxl-2">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em">Image
+                    cap</text>
+            </svg>
+            <div class="card-body">
+                <h5 class="card-title">Corinthians Titular 24-25 com Todos os Patrocínios</h5>
+                <br>
+                <p>R$ 120,00</p>
+                <a href="#" class="btn btn-primary">Ver Produto</a>
+            </div>
+        </div>
+        <div class="col-3 col-md-3 col-xxl-2">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em">Image
+                    cap</text>
+            </svg>
+            <div class="card-body">
+                <h5 class="card-title">Corinthians Titular 24-25 com Todos os Patrocínios</h5>
+                <br>
+                <p>R$ 120,00</p>
+                <a href="#" class="btn btn-primary">Ver Produto</a>
+            </div>
+        </div>
+        <div class="col-3 col-md-3 col-xxl-2">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em">Image
+                    cap</text>
+            </svg>
+            <div class="card-body">
+                <h5 class="card-title">Corinthians Titular 24-25 com Todos os Patrocínios</h5>
+                <br>
+                <p>R$ 120,00</p>
+                <a href="#" class="btn btn-primary">Ver Produto</a>
+            </div>
+        </div>
+        <div class="col-3 col-md-3 col-xxl-2">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em">Image
+                    cap</text>
+            </svg>
+            <div class="card-body">
+                <h5 class="card-title">Corinthians Titular 24-25 com Todos os Patrocínios</h5>
+                <br>
+                <p>R$ 120,00</p>
+                <a href="#" class="btn btn-primary">Ver Produto</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
